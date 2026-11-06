@@ -6,6 +6,7 @@
         private float $num1;
         private float $num2;
         private float $resultado;
+        private float $num3;
 
     
         //Construtor = intancia  as variaveis -> Criar as variaveis na memoria do servidor
@@ -90,6 +91,11 @@
             return $this->resultado;
         }//fim do método
         
+        public function raiznumeros(int $num1){
+            $this->resulrado = $num1 * $num1;
+            return $this -> resultado;
+        }
+
         
         
     

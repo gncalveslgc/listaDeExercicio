@@ -34,8 +34,8 @@
                 $num2 = $_POST['segundoNumero'];
                 $num3 = $_POST['terceiroNumero'];
               
-               
-                $resultado = $funcoes->multiplicadorDoisNumeros($num1,$num2,$num3);//utilizando o metodo da classe funcoes
+               $resultado = ($num1 + $num2 + $num3 ) / 3;
+                
             }
             ?>
         </button>

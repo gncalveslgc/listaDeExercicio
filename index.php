@@ -19,7 +19,14 @@
     <button><a href="telas/dividir.php">dividir</a></button><br>
     <button><a href="telas/baskara.php">bhaskara</a></button><br>
     <button><a href="telas/multiplicador.php">multiplicador</a></button><br>
-     <button><a href="telas/media.php">media</a></button><br>
+    <button><a href="telas/media.php">media</a></button><br>
+    <button><a href="telas/raiz.php">raiz quadrada</a></button><br>
+    <button><a href="telas/metros.php">metros para centimetros</a></button><br>
+    <button><a href="telas/desconto.php">desconto de 10%</a></button><br>
+    <button><a href="telas/imposto.php">imposto</a></button><br>
+    <button><a href="telas/circulo.php">circulo</a></button><br>
+    <button><a href="telas/idadepramorrer.php">idade para morrer</a></button><br>
+    <button><a href="telas/triangulo.php">trianguo</a></button><br>
 
 </body>
 </html>
