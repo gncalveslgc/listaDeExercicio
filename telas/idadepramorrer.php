@@ -16,6 +16,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Idade para meses</title>
+   <button><a href="../index.php">voltar</a></button>
+</head>
+<body>
     <h1>Informe a sua idade :</h1>
     <form method="POST">
         <label>Informe a sua idade:</label>
@@ -29,7 +32,7 @@
                 $num1 = $_POST['primeiroNumero'];
               
                
-                 $resultado = (-$num1) + 100;
+                $resultado = $funcoes->idadeMorrerNumero($num1);//utilizando o metodo da classe funcoes
             }
             ?>
         </button>
@@ -38,8 +41,5 @@
     <?php
     echo "O reusltado da subtrair é: " .$resultado;
     ?>
-</head>
-<body>
-   
 </body>
 </html>

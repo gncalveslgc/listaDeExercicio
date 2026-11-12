@@ -16,6 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subtrair</title>
+    <button><a href="../index.php">voltar</a></button>
     <h1>Informe os valores que deseja subtrair:</h1>
     <form method="POST">
         <label>Informe o primeiro número:</label>

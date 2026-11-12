@@ -16,6 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bhaskara</title>
+    <button><a href="../index.php">voltar</a></button>
     <h1>Informe os valores da bhaskara:</h1>
     <form method="POST">
         <label>Informe o A:</label>

@@ -16,6 +16,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raiz quadrada</title>
+    <button><a href="../index.php">voltar</a></button>
+</head>
+<body>
     <h1>Informe o numero :</h1>
     <form method="POST">
         <label>Informe o numero da raiz:</label>
@@ -29,7 +32,7 @@
                 $num1 = $_POST['primeiroNumero'];
               
                
-                 $resultado = ($num1) * $num1;
+                 $resultado = $funcoes->raiznumeros($num1);
             }
             ?>
         </button>
@@ -38,8 +41,5 @@
     <?php
     echo "O reusltado da subtrair é: " .$resultado;
     ?>
-</head>
-<body>
-   
 </body>
 </html>

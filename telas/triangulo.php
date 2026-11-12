@@ -16,7 +16,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculando a area do triangulo</title>
+    <button><a href="../index.php">voltar</a></button>
+</head>
+<body>
     <h1>Informe o triangulo:</h1>
+    
     <form method="POST">
         <label>Informe a altura do triangulo:</label>
         <input type="number" id="primeiroNumero" name="primeiroNumero"/>
@@ -33,7 +37,7 @@
                 $num2 = $_POST['segundoNumero'];
                 
               
-               $resultado = ($num1 * $num2 ) / 2;
+               $resultado = $funcoes->trianguloNumeros($num1, $num2);//utilizando o
                 
             }
             ?>
@@ -43,8 +47,5 @@
     <?php
     echo "O reusltado da subtrair é: " .$resultado;
     ?>
-</head>
-<body>
-   
 </body>
 </html>

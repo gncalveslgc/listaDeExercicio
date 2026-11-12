@@ -17,9 +17,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculadora de area do circulo </title>
     <h1>Informe o raio do circulo :</h1>
+    <button><a href="../index.php">voltar</a></button>
     <form method="POST">
         <label>Informe o raio:</label>
         <input type="number" id="primeiroNumero" name="primeiroNumero"/>
+      
        
     
  
@@ -27,9 +29,11 @@
             <?php
            if(isset($_POST['primeiroNumero'])){
                 $num1 = $_POST['primeiroNumero'];
+                 
+
               
-               
-                 $resultado = ($num1 * $num2) * 3.14 ;
+               $resultado = $funcoes->circuloNumeros($num1);//utilizando o metodo da classe funcoes
+                 
             }
             ?>
         </button>

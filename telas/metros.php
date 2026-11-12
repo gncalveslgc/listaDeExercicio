@@ -16,7 +16,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metros para centimetros</title>
-    <h1>Informe o metros :</h1>
+    <button><a href="../index.php">voltar</a></button>
+</head>
+<body>
+   <h1>Informe o metros :</h1>
     <form method="POST">
         <label>Informe metros:</label>
         <input type="number" id="primeiroNumero" name="primeiroNumero"/>
@@ -29,7 +32,7 @@
                 $num1 = $_POST['primeiroNumero'];
               
                
-                 $resultado = ($num1) * 100;
+                 $resultado = $funcoes->metrosNumeros($num1);
             }
             ?>
         </button>
@@ -38,8 +41,5 @@
     <?php
     echo "O reusltado da subtrair é: " .$resultado;
     ?>
-</head>
-<body>
-   
 </body>
 </html>

@@ -16,6 +16,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>imposto de 18%</title>
+    <button><a href="../index.php">voltar</a></button>
+</head>
+<body>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imposto de 18%</title>
     <h1>Informe o o valor :</h1>
     <form method="POST">
         <label>Informe o valor:</label>
@@ -29,7 +35,7 @@
                 $num1 = $_POST['primeiroNumero'];
               
                
-                 $resultado = ($num1) * 0.18 + $num1 ;
+                $resultado = $funcoes->impostoNumero($num1);
             }
             ?>
         </button>
@@ -38,8 +44,5 @@
     <?php
     echo "O reusltado da subtrair é: " .$resultado;
     ?>
-</head>
-<body>
-   
 </body>
 </html>

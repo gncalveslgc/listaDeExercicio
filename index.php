@@ -26,7 +26,13 @@
     <button><a href="telas/imposto.php">imposto</a></button><br>
     <button><a href="telas/circulo.php">circulo</a></button><br>
     <button><a href="telas/idadepramorrer.php">idade para morrer</a></button><br>
-    <button><a href="telas/triangulo.php">trianguo</a></button><br>
-
+    <button><a href="telas/triangulo.php">triangulo</a></button><br>
+    <button><a href="telas/anos.php">anos em meses</a></button><br>
+    <button><a href="telas/impar.php">impar ou par</a></button><br>
+    <button><a href="telas/Celsius.php">de Celsius para Fahrenheit</a></button><br>
+    <button><a href="telas/tabuada.php">Tabuada</a></button><br>
+    <button><a href="telas/binario.php">binario</a></button><br>
+    <button><a href="telas/hexa.php">binario</a></button><br>
+    <button><a href="telas/positivoNegativo.php">Sinais</a></button><br>
 </body>
 </html>

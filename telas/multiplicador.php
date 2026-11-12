@@ -16,6 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>multiplicador</title>
+    <button><a href="../index.php">voltar</a></button>
     <h1>Informe o numero e dobre:</h1>
     <form method="POST">
         <label>Informe o primeiro número:</label>
