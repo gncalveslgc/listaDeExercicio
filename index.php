@@ -34,5 +34,8 @@
     <button><a href="telas/binario.php">binario</a></button><br>
     <button><a href="telas/hexa.php">binario</a></button><br>
     <button><a href="telas/positivoNegativo.php">Sinais</a></button><br>
+    <button><a href="telas/maiorEMenor.php">que numero é maior</a></button><br>
+    <button><a href="telas/Bisexto.php">o ano é BIssexto</a></button><br>
+    <button><a href="telas/trapezio.php">Calcule a área de um trapézio</a></button><br>
 </body>
 </html>

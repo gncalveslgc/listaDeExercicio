@@ -223,6 +223,22 @@
                 return "O numero: ". $num2 . "é maior";
             }
         }
+        public function BIssexto (int $num1 )
+        {
+            if($num1 % 4 == 0){
+                return "o ano é bissexto";
+            }else{
+                return "o ano não é bissexto";
+            }
+            
+        }
+
+        public function trapezio (float $num1, float $num2)
+        {
+         $this->resultado = (($num1 + $num2) * $num3) / 2 ;
+            return $this -> resultado;
+        }
+
     
     }//fim da classe
 ?>
