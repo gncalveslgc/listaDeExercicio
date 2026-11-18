@@ -238,7 +238,107 @@
          $this->resultado = (($num1 + $num2) * $num3) / 2 ;
             return $this -> resultado;
         }
+        
+        public function IMC (float $num1, float $num2)
+        {
+            if($num2/ ($num1*$num1)){
+                
+            }
+        }
 
+        public function podeVotarNumero (int $num1)
+        {
+            if ($num1 <= 15){
+                return "Você não pode votar";
+            }else if ( $num1 <= 17  ){
+                return "Você pode votar mas não é obrigado";
+            }else if ( $num1 >= 18 ){
+                return "É obrigatorio votar";
+            }
+        }
+
+        public function IdadeJovemNumero (int $num1)
+        {
+            if ($num1 <= 11){
+                return "Você é uma criança";
+            }else if ( $num1 <= 17  ){
+                return "Você é uma adolescente";
+            }else if ( $num1 >= 18 ){
+                return "Você é um adulto";
+            }
+        }
+
+        //public function intervaloNumero (int $num1, int $num2, $num3)
+        //{
+                //if ($num1 <= $num3){
+                    //return "Não esta no intervalo";
+               // }else if ($num2 <= $num3)
+                  //  return "O numero esta dentro do intervalo";
+        //} ta tudo errado
+        
+        public function trianguloNumeros2 (float $num1, float $num2, float $num3)
+        {
+            if ($num1 == $num2 && $num2 == $num3){
+                return "Triângulo Equilátero";
+            }else if ($num1 == $num2 && $num2  != $num3 ){
+                return "Triângulo Isósceles";
+            }else{ 
+                return"Triângulo Escaleno";
+            }
+        }
+
+        public function diaDaSemanaNumeros (int $num1)
+        {
+            if ($num1 == 1){
+                return "Domingo";
+            }else if($num1 == 2 ){
+                return "Segunda-Feira";
+            }else if($num1 == 3 ){
+                return "terça-Feira";
+            }else if($num1 == 4 ){
+                return "Quarta-Feira";
+            }else if($num1 == 5 ){
+                return "Quinta-Feira";
+            }else if($num1 == 6 ){
+                return "Sexta-Feira";
+            }else if($num1 == 7 ){
+                return "Sabado";
+            }
+        }
+
+        public function NotasDaSalaNumero (int $num1)
+        {
+            if ($num1 <= 3){
+                return "Nota F";
+            }else if($num1 <= 5 ){
+                return "Nota D";
+            }else if($num1 <= 7 ){
+                return "Nota C";
+            }else if($num1 <= 8 ){
+                return "Nota B";
+            }else if($num1 <= 10 ){
+                return "Nota A";
+            }else{
+                return "essa nota não existe";
+            }
+        }
+
+        public function pontoDaAguaNumeros (int $num1)
+        {
+            if ($num1 <= 10){
+                return "Água gelada";
+            }else if($num1 <= 25 ){
+                return "Água fria";
+            }else if($num1 <= 40 ){
+                return "Água morana ";
+            }else if($num1 <= 80 ){
+                return "Água quente";
+            }else{
+                return "Água fervendo";
+            }
+        }
+        
+        
     
     }//fim da classe
 ?>

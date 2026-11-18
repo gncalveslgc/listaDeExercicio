@@ -37,5 +37,11 @@
     <button><a href="telas/maiorEMenor.php">que numero é maior</a></button><br>
     <button><a href="telas/Bisexto.php">o ano é BIssexto</a></button><br>
     <button><a href="telas/trapezio.php">Calcule a área de um trapézio</a></button><br>
+    <button><a href="telas/podeVotar.php">idade para votar</a></button><br>
+    <button><a href="telas/idadeJovem.php">Você é um adulto?</a></button><br>
+    <button><a href="telas/triangulo2.php">triangulo é isosceles equilatero ou escaleno</a></button><br>
+    <button><a href="telas/DiaDaSemana.php">Dia da semana</a></button><br>
+    <button><a href="telas/NotasDaSala.php">Converter sua nota em numeros para letras</a></button><br>
+    <button><a href="telas/pontoDaAgua.php">Ponto da Água</a></button><br>
 </body>
 </html>
