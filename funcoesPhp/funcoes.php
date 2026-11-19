@@ -239,10 +239,26 @@
             return $this -> resultado;
         }
         
-        public function IMC (float $num1, float $num2)
-        {
-            if($num2/ ($num1*$num1)){
-                
+        public function imcNumero(float $num1,float $num2){
+            $this->resultado = $num1/($num2**2);
+ 
+            if($this->resultado < 18.5){
+                return "Magreza";
+            }
+            else if ($this->resultado >= 18.5 && $this->resultado <= 24.9){
+                return $this->resultado ." Peso Normal";
+            }
+            else if ($this->resultado >= 25 && $this->resultado < 29.9){
+                return  $this->resultado ." Sobrepeso";
+            }
+            else if ($this->resultado >= 30 && $this->resultado < 34.9 ){
+                return  $this->resultado ." Obesidade grau I";
+            }
+            else if($this->resultado >= 35 && $this->resultado < 39.9){
+                return  $this->resultado ." Obesidade grau II";
+            }
+            else{
+                return  $this->resultado ." Obesidade grave";
             }
         }
 
@@ -268,13 +284,13 @@
             }
         }
 
-        //public function intervaloNumero (int $num1, int $num2, $num3)
-        //{
-                //if ($num1 <= $num3){
-                    //return "Não esta no intervalo";
-               // }else if ($num2 <= $num3)
-                  //  return "O numero esta dentro do intervalo";
-        //} ta tudo errado
+        public function intervaloNumero (int $num1, int $num2, int $num3)
+        {
+            if ($num1 <= $num3 && $num2 >= $num3){
+                return "Não esta no intervalo";
+            }else if ($num2 <= $num3 && $num1 >= $num3)
+                return "O numero esta dentro do intervalo";
+        } 
         
         public function trianguloNumeros2 (float $num1, float $num2, float $num3)
         {
@@ -338,7 +354,56 @@
             }
         }
         
+        public function pacotePesoNumero (float $num1)
+        {
+            if ($num1 <= 10){
+                return "Pacote leve";
+            }else if($num1 <= 30 ){
+                return "Pacote médio";
+            }else if($num1 >= 31 ){
+                return "Pacote pesado ";
+            }
+        }
+
+        public function entradaBaladaNumero (int $num1)
+        {
+            if($num1 >= 16){
+                return "Pode entrar";
+            }
+            else{
+                return "Não pode entrar";
+            }
+        }
+
+         public function saldoNumero(float $num1)
+        {
+            if($num1 > 0){
+                return "Seu saldo esta possitivo";
+            }
+            else if($num1 == 0){
+                return "Seu saldo esta zerado";
+            }
+            else{
+                return "Seu saldo esta negativado";
+            }
+        }
+
+
+        public function MediaNotaNumero(float $num1,float $num2, float $num3){
+            $this->resultado = ($num1 + $num2 + $num3) /3;
+ 
+            if($this->resultado < 3){
+                return "reprovado";
+            }
+            else if ($this->resultado <= 6){
+                return $this->resultado ." Recuperação";
+            }
+            else if ($this->resultado >= 7){
+                return  $this->resultado ." aprovado";
+            }
+        }
         
+                        
     
     }//fim da classe
 ?>

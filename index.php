@@ -43,5 +43,10 @@
     <button><a href="telas/DiaDaSemana.php">Dia da semana</a></button><br>
     <button><a href="telas/NotasDaSala.php">Converter sua nota em numeros para letras</a></button><br>
     <button><a href="telas/pontoDaAgua.php">Ponto da Água</a></button><br>
+    <button><a href="telas/pacotePeso.php">Peso do pacote</a></button><br>
+    <button><a href="telas/entradabalada.php">Supra</a></button><br>
+    <button><a href="telas/imc.php">calcule seu IMC</a></button><br>
+    <button><a href="telas/mediaNotas.php">calcule a media</a></button><br>
+    <button><a href="telas/intervalo.php">intervalo</a></button><br>
 </body>
 </html>
